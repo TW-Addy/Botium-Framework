@@ -2,7 +2,7 @@ first_test
 
 
 #begin
-FirstHook helloworld.json
+FirstHook mock.json
 
 #me
 Hey bot

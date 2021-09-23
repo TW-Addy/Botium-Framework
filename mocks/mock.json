@@ -1,0 +1,8 @@
+{
+    "port": "8080",
+    "uri": "/some/url/to/mock",
+    "method": "GET",
+    "response": {
+        "body": "Hello world!"
+    }
+}

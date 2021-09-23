@@ -1,10 +1,10 @@
 const bb = require('botium-bindings')
 bb.helper.mocha().setupMochaTestSuite()
 
-const { mockServer } = require('http-mockserver');
+const mockServer = require('../mockServer');
 
 before(() => {
-  return mockServer.start(4001);
+  return mockServer.start();
 })
 
 beforeEach(() => {
