@@ -1,0 +1,20 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "mocha-botium-project",
+      "CONTAINERMODE": "directline3",
+      "DIRECTLINE3_SECRET":"",
+
+      "LOGIC_HOOKS": [
+        {
+          "ref": "FirstHook",
+          "src": "./resources/hooks.js",
+          "global": false
+        }
+      ]
+
+    },
+    "Sources": {},
+    "Envs": {}
+  }
+}
