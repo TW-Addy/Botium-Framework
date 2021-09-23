@@ -3,9 +3,10 @@ bb.helper.mocha().setupMochaTestSuite()
 
 const mockServer = require('../mockServer');
 
-process.env['API_URL'] = 'http://c195-2603-8080-f60c-43c9-381f-8e68-985f-ca6c.ngrok.io';
+const ngrok = require('ngrok');
 
-before(() => {
+before(async () => {
+  process.env['API_URL'] = await ngrok.connect(8080);
   return mockServer.start();
 })
 
@@ -14,5 +15,6 @@ beforeEach(() => {
 })
 
 after(() => {
+  ngrok.kill();
     return mockServer.stop();
 })
