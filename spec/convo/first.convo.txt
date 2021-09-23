@@ -32,7 +32,7 @@ fake api session
 what is your api url
 
 #me
-http://632c-2603-8080-f60c-43c9-381f-8e68-985f-ca6c.ngrok.io
+$env(API_URL)
 
 #bot
 You have no Open Compensation claims.

@@ -11,8 +11,8 @@
           "src": "./resources/hooks.js",
           "global": false
         }
-      ]
-
+      ],
+      "SCRIPTING_ENABLE_MEMORY": true
     },
     "Sources": {},
     "Envs": {}
