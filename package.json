@@ -21,6 +21,7 @@
   "dependencies": {
     "botium-connector-directline3": "^0.0.26",
     "botium-connector-webdriverio": "^0.3.15",
+    "http-mockserver": "^2.2.2",
     "mocha": "^9.1.1",
     "selenium": "^2.20.0"
   },
