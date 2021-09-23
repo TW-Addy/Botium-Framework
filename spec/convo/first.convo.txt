@@ -2,7 +2,7 @@ first_test
 
 
 #begin
-FirstHook mock.json
+FirstHook mock.js
 
 #me
 Hey bot
@@ -11,15 +11,28 @@ Hey bot
 Hello! I can help you find information on VA.gov. What can I help you find today?
 
 #me
-Are x-rays covered ?
+claim status
 
 #bot
-VA health care may cover services that your VA primary care provider concludes you need to support your treatment (called ancillary services), like: 
+This virtual agent will now look up your most recent open compensation claim. One moment, please...
 
-- Tests used to diagnose health conditions, including blood work, X-rays, and ultrasounds 
+#bot
+What is your csrfToken
 
-- Therapy and rehabilitation services, including physical therapy, vision rehab, and therapy for traumatic brain injury 
+#me
+fake-csrfToken
 
-- Additional services, including prosthetic items, audiology (care for hearing loss), and radiation oncology (cancer care) 
+#bot
+what is your api session
 
-[Find out more about VA health care benefits](https://www.va.gov/health-care/about-va-health-benefits/)
+#me
+fake api session
+
+#bot
+what is your api url
+
+#me
+http://632c-2603-8080-f60c-43c9-381f-8e68-985f-ca6c.ngrok.io
+
+#bot
+You have no Open Compensation claims.
