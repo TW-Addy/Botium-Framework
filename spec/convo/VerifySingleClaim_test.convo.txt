@@ -1,0 +1,38 @@
+VerifySingleClaim_test
+
+
+#begin
+FirstHook mock_singleclaim.js
+
+#me
+Hey bot
+
+#bot
+Hello! I can help you find information on VA.gov. What can I help you find today?
+
+#me
+claim status
+
+#bot
+This virtual agent will now look up your most recent open compensation claim. One moment, please...
+
+#bot
+What is your csrfToken
+
+#me
+fake-csrfToken
+
+#bot
+what is your api session
+
+#me
+fake api session
+
+#bot
+what is your api url
+
+#me
+$env(API_URL)
+
+#bot
+You have one Compensation claim filed on 08/13/2021 whose status is currently: UNDER REVIEW
