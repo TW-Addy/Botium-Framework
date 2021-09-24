@@ -15,4 +15,4 @@ appeal status
 #include token_and_session
 
 #bot
-You have one Compensation appeal filed on 02/02/2020 whose status is currently: Please review your Statement of the Case
+You have one Compensation appeal filed on 02/02/2020 whose status is currently: Please review your Statement of the Case.

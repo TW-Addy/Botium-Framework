@@ -15,4 +15,4 @@ appeal status
 #include token_and_session
 
 #bot
-You have no Active Compensation Appeals
+You have no active Compensation appeals.

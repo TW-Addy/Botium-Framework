@@ -1,0 +1,13 @@
+returns error message when vets api returns 500
+
+
+#begin
+setup_api_mock v0/virtual_agent/appeal/error_500.js
+
+#me
+appeal status
+
+#include token_and_session
+
+#bot
+Oops, there was an error!
