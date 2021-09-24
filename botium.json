@@ -3,7 +3,6 @@
     "Capabilities": {
       "PROJECTNAME": "mocha-botium-project",
       "CONTAINERMODE": "directline3",
-      "DIRECTLINE3_SECRET":"",
 
       "LOGIC_HOOKS": [
         {
