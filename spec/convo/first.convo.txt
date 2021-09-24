@@ -2,7 +2,7 @@ first_test
 
 
 #begin
-FirstHook v0/virtual_agent/claim/mock.js
+FirstHook v0/virtual_agent/claim/no_claims.js
 
 #me
 Hey bot
