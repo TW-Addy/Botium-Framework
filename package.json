@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "mocha": "mocha spec"
+    "test": "mocha"
   },
   "keywords": [],
   "private": true,
