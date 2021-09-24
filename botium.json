@@ -12,7 +12,9 @@
           "global": false
         }
       ],
-      "SCRIPTING_ENABLE_MEMORY": true
+      "SCRIPTING_ENABLE_MEMORY": true,
+      "WAITFORBOTTIMEOUT": 60000,
+      "MOCHA_TIMEOUT": 90000
     },
     "Sources": {},
     "Envs": {}
