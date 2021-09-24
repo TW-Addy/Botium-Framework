@@ -1,0 +1,28 @@
+returns claim info when user chooses the claim button
+
+#begin
+setup_api_mock v0/virtual_agent/claim/single_claim.js
+
+#me
+Hey bot
+
+#bot
+Hello! I can help you find information on VA.gov. What can I help you find today?
+
+#me
+status
+
+#bot
+To clarify, did you mean:
+BUTTONS ClaimStatus|AppealStatus|None of these
+
+#me
+claim status
+
+#bot
+This virtual agent will now look up your most recent open compensation claim. One moment, please...
+
+#include token_and_session
+
+#bot
+You have one Compensation claim filed on 08/13/2021 whose status is currently: UNDER REVIEW
