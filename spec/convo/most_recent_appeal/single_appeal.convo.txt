@@ -1,0 +1,18 @@
+returns appeal info when api returns an appeal
+
+#begin
+setup_api_mock v0/virtual_agent/appeal/single_appeal.js
+
+#me
+Hey bot
+
+#bot
+Hello! I can help you find information on VA.gov. What can I help you find today?
+
+#me
+appeal status
+
+#include token_and_session
+
+#bot
+You have one Compensation appeal filed on 02/02/2020 whose status is currently: Please review your Statement of the Case
