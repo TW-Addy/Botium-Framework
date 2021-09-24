@@ -1,7 +1,7 @@
 returns no claims when api returns empty array
 
 #begin
-FirstHook v0/virtual_agent/claim/no_claims.js
+setup_api_mock v0/virtual_agent/claim/no_claims.js
 
 #me
 Hey bot

@@ -2,7 +2,7 @@ returns error message when vets api returns 500
 
 
 #begin
-FirstHook v0/virtual_agent/claim/error_500.js
+setup_api_mock v0/virtual_agent/claim/error_500.js
 
 #me
 claim status

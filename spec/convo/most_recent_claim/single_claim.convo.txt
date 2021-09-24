@@ -1,7 +1,7 @@
 returns claim info when api returns a claim
 
 #begin
-FirstHook v0/virtual_agent/claim/single_claim.js
+setup_api_mock v0/virtual_agent/claim/single_claim.js
 
 #me
 Hey bot

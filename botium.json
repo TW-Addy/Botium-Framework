@@ -6,7 +6,7 @@
 
       "LOGIC_HOOKS": [
         {
-          "ref": "FirstHook",
+          "ref": "setup_api_mock",
           "src": "./resources/hooks.js",
           "global": false
         }
