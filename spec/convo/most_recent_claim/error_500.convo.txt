@@ -1,4 +1,4 @@
-error_500
+returns error message when vets api returns 500
 
 
 #begin

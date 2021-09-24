@@ -1,4 +1,4 @@
-single_claim
+returns claim info when api returns a claim
 
 #begin
 FirstHook v0/virtual_agent/claim/single_claim.js
