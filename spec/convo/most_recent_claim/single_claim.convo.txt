@@ -1,5 +1,4 @@
-VerifySingleClaim_test
-
+single_claim
 
 #begin
 FirstHook v0/virtual_agent/claim/single_claim.js

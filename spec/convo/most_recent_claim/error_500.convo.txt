@@ -1,4 +1,4 @@
-VerifyError500
+error_500
 
 
 #begin

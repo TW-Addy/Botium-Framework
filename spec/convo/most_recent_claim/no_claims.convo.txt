@@ -1,5 +1,4 @@
-first_test
-
+no_claims
 
 #begin
 FirstHook v0/virtual_agent/claim/no_claims.js
