@@ -7,7 +7,7 @@
       "LOGIC_HOOKS": [
         {
           "ref": "setup_api_mock",
-          "src": "./resources/hooks.js",
+          "src": "./resources/setupApiMock.js",
           "global": false
         }
       ],
