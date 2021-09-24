@@ -1,0 +1,18 @@
+returns no appeals when api returns empty array
+
+#begin
+setup_api_mock v0/virtual_agent/appeal/no_appeals.js
+
+#me
+Hey bot
+
+#bot
+Hello! I can help you find information on VA.gov. What can I help you find today?
+
+#me
+appeal status
+
+#include token_and_session
+
+#bot
+You have no Active Compensation Appeals
