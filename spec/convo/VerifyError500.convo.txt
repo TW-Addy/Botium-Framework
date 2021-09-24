@@ -2,7 +2,7 @@ VerifyError500
 
 
 #begin
-FirstHook v0/virtual_agent/claim/mock_ErrorHandling500.js
+FirstHook v0/virtual_agent/claim/error_500.js
 
 #me
 claim status
