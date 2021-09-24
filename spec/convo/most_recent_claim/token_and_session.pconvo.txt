@@ -1,0 +1,19 @@
+token_and_session
+
+#bot
+What is your csrfToken
+
+#me
+fake-csrfToken
+
+#bot
+what is your api session
+
+#me
+fake api session
+
+#bot
+what is your api url
+
+#me
+$env(API_URL)

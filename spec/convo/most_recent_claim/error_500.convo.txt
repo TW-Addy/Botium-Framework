@@ -10,23 +10,7 @@ claim status
 #bot
 This virtual agent will now look up your most recent open compensation claim. One moment, please...
 
-#bot
-What is your csrfToken
-
-#me
-fake-csrfToken
-
-#bot
-what is your api session
-
-#me
-fake api session
-
-#bot
-what is your api url
-
-#me
-$env(API_URL)
+#include token_and_session
 
 #bot
 Oops, there was an error!
