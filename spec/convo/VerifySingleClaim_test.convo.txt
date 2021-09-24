@@ -2,7 +2,7 @@ VerifySingleClaim_test
 
 
 #begin
-FirstHook mock_singleclaim.js
+FirstHook v0/virtual_agent/claim/mock_singleclaim.js
 
 #me
 Hey bot
