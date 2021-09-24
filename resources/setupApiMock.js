@@ -1,17 +1,13 @@
-const mockServer = require('../mockServer');
+const { mockServer } = require('http-mockserver');
+
 function setupApiMock(mockFile) {
-  const mock = require('../mocks/'+mockFile);
+  const mock = require('../mocks/' + mockFile);
   mockServer.addMock(mock);
 }
 
-const utils = {
-  inspect: JSON.stringify
-}
-
-
 module.exports = class SetupApiMock {
-    onConvoBegin ({ convo, args }) {
-      setupApiMock(args);
-      console.log(`setupApiMock onConvoBegin: ${convo.header.name} ${args}`)
-    }
+  onConvoBegin({convo, args}) {
+    setupApiMock(args);
+    console.log(`setupApiMock onConvoBegin: ${convo.header.name} ${args}`)
   }
+}

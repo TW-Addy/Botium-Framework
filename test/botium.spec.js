@@ -2,7 +2,7 @@ require('dotenv').config()
 const bb = require('botium-bindings')
 bb.helper.mocha().setupMochaTestSuite()
 
-const mockServer = require('../mockServer');
+const { mockServer } = require('http-mockserver');
 
 const ngrok = require('ngrok');
 
